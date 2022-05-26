@@ -214,6 +214,7 @@ public class Bot {
                                 log.trace("Reading AIML {}", file);
                             }
                             try {
+                            	log.debug(" //////////////////////////************* {}", file);
                                 ArrayList<Category> moreCategories = processor.AIMLToCategories(aimlPath, file);
                                 addMoreCategories(file, moreCategories);
                                 count += moreCategories != null ? moreCategories.size() : 0;

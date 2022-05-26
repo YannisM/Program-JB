@@ -29,7 +29,7 @@ public class App {
 
         BotConfiguration.BotConfigurationBuilder builder = BotConfiguration
                 .builder()
-                .name("alice2")
+                .name("thorn")
                 .action("chat")
                 .jpTokenize(false)
                 .graphShortCuts(true);

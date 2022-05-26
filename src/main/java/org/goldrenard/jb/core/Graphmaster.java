@@ -343,8 +343,8 @@ public class Graphmaster {
      * @param matchTrace     trace of match path for debugging purposes
      * @return matching leaf node or null if no match is found
      */
-    private Nodemapper match(Path path, Nodemapper node, String inputThatTopic, String starState, int starIndex,
-                             String[] inputStars, String[] thatStars, String[] topicStars, String matchTrace) {
+    private Nodemapper match( Path path, Nodemapper node, String inputThatTopic, String starState, int starIndex, 
+                              String[] inputStars, String[] thatStars, String[] topicStars, String matchTrace ) {
         Nodemapper matchedNode;
         matchCount++;
         if ((matchedNode = nullMatch(path, node, matchTrace)) != null) {
